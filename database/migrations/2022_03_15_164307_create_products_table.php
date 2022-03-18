@@ -18,13 +18,10 @@ class CreateProductsTable extends Migration
             $table->bigInteger('cate_id')->nullable();
             $table->string('origin')->nullable();
             $table->string('destination')->nullable();
-            $table->string('round_trip')->nullable();
-            $table->longText('description')->nullable();
             $table->integer('available_seat')->nullable();
             $table->string('pickup_location')->nullable();
             $table->integer('price')->nullable();
-            $table->tinyInteger('status')->nullable();
-            $table->string('image');
+            $table->tinyInteger('product_status')->nullable();
             $table->timestamps();
         });
     }

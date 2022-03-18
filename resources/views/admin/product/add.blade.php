@@ -18,31 +18,24 @@
                           </select>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Name</label>
-                        <input type="text" class="form-control" name = "name">
+                        <label for="">Origin</label>
+                        <input type="text" class="form-control" name = "origin">
                     </div>
                     <div class="col-md-6">
-                        <label for="">Descriptions</label>
-                        <input type="text" class="form-control" name = "description">
+                        <label for="">Destination</label>
+                        <input type="text" class="form-control" name = "destination">
                     </div>
                     <div class="col-md-12">
-                        <label for="">Meta Title</label>
-                        <input type="text" class="form-control" name = "meta_title">
+                        <label for="">PickupLocation</label>
+                        <input type="text" class="form-control" name = "pickup_location">
                     </div>
                     <div class="col-md-6">
-                        <label for="">Meta Keywords</label>
-                        <input type="text" class="form-control" name = "meta_keyword">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="">Meta Description</label>
-                        <input type="text" class="form-control" name = "meta_description">
-                    </div>
-                    <div class="col-md-12">
-                        <input type="file" name = "image" class="form-control">
+                        <label for="">Price</label>
+                        <input type="text" class="form-control" name = "price">
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="">Active</label>
-                        <input type="checkbox" name = "status">
+                        <input type="checkbox" name = "product_status">
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary" name = "name">Submit</button>

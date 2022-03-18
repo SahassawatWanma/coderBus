@@ -11,14 +11,12 @@ class Category extends Model
 
     protected $table = 'categories';
     protected $fillable = [
-        'origin',
-        'destination',
-        'available_seat',
-        'pickup_address',
-        'price',
-        'vehicle_license',
+        'name',
+        'description',
+        'meta_title',
+        'meta_keyword',
+        'meta_description',
         'image',
-        'departure_time',
         'status',
     ];
 }

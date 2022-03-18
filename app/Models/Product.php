@@ -13,13 +13,9 @@ class Product extends Model
         'cate_id',
         'origin',
         'destination',
-        'round_trip',
-        'description',
-        'available_seat',
         'available_seat',
         'pickup_location',
         'price',
         'status',
-        'image',
     ];
 }
