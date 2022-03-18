@@ -16,6 +16,6 @@ class Product extends Model
         'available_seat',
         'pickup_location',
         'price',
-        'status',
+        'product_status',
     ];
 }
