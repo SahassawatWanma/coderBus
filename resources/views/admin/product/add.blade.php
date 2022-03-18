@@ -26,12 +26,20 @@
                         <input type="text" class="form-control" name = "destination">
                     </div>
                     <div class="col-md-12">
-                        <label for="">PickupLocation</label>
+                        <label for="">Available seat</label>
+                        <input type="number" class="form-control" name = "available_seat">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="">Pickup Location</label>
                         <input type="text" class="form-control" name = "pickup_location">
                     </div>
                     <div class="col-md-6">
+                        <label for="">Departure Time</label>
+                        <input type="datetime-local" class="form-control" name = "departure_time">
+                    </div>
+                    <div class="col-md-6">
                         <label for="">Price</label>
-                        <input type="text" class="form-control" name = "price">
+                        <input type="number" class="form-control" name = "price">
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="">Active</label>

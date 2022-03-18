@@ -29,13 +29,13 @@
             <p>Add Categories</p>
           </a>
         </li>
-        <li class="nav-item {{ Request::is('product') ? 'active' : ''}}">
+        <li class="nav-item {{ Request::is('products') ? 'active' : ''}}">
             <a class="nav-link" href="{{ url('products') }}">
               <i class="material-icons">person</i>
               <p>Vehicle List</p>
             </a>
           </li>
-        <li class="nav-item {{ Request::is('add-category') ? 'active' : ''}}">
+        <li class="nav-item {{ Request::is('add-products') ? 'active' : ''}}">
             <a class="nav-link" href="{{ url('add-products') }}">
               <i class="material-icons">add_box</i>
               <p>Add Vehicle</p>
