@@ -24,8 +24,11 @@
                     <tr>
                         <td>{{ $item->id }}</td>
                         <td>{{ $item->cate_id }}</td>
-                        <td>{{ $item->description }}</td>
-                        <td></td>
+                        <td>{{ $item->origin }}</td>
+                        <td>{{ $item->detination }}</td>
+                        <td>{{ $item->available }}</td>
+                        <td>{{ $item->pickup_location }}</td>
+                        <td>{{ $item->price }}</td>
                         <td>
                         <a href="{{ url('edit-prod/'.$item->id) }}"class="btn btn-primary">Edit</a>
                         <a href="{{ url('delete-category/'.$item->id) }}" class="btn btn-danger">Delete</a>

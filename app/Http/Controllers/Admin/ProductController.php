@@ -20,4 +20,8 @@ class ProductController extends Controller
         $category = Category::all();
         return view('admin.product.add', compact('category'));
     }
+    public function insert(Request $request)
+    {
+
+    }
 }
